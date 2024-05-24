@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = " 😺 | 𝙲𝚊𝚃 𝙰𝚛𝚊 ";
+const doNotDelete = " 👑 | 𝑬𝒎𝒑𝒚𝒓𝒆𝒂𝒏𝑺𝑴𝑷/𝑻𝒂𝒏𝒋𝒊𝒓𝒐_𝑲𝒂𝒎𝒂𝒅𝒐 𝑩𝒐𝒕";
 
 module.exports = {
   config: {
