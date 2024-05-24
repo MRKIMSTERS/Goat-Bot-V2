@@ -11,10 +11,10 @@ module.exports = {
     },
     onStart: async function () {},
     onChat: async function ({ event, message, getLang, api }) {
-        const trigger = 'cat';
+        const trigger = 'Tanjiro';
 
         if (event.body && event.body.toLowerCase() === trigger) {
-            return message.reply(`mewww, maoww!!😺\n\n🌐 System prefix: -\n🛸 Your box chat prefix: -`);
+            return message.reply(`mewww, maoww!!😺\n\n🌐 System prefix: $\n🛸 Your box chat prefix: $`);
         }
     }
 };
